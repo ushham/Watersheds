@@ -40,7 +40,7 @@ class PeakFinder:
         else:
             fl = rs.open(file)
             data = fl.read(1)
-            data = data[7800:8000, 9600:9900]
+            data = data[7850:7950, 9650:9750]
 
         return data
 
